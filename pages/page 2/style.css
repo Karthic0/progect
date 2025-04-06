@@ -1,0 +1,92 @@
+body{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 33.33vh 33.33vh 33.33vh;
+    grid-template-areas: " None Logo-Greeting "
+                         "None Continue_Mail "
+                         "None Terms_Login ";
+}
+#Logo-Greeting{
+    padding-top: 20px;
+    grid-area:Logo-Greeting ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.Greeting{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: larger;
+   flex-wrap: wrap;
+}
+#Continue_Mail{
+    grid-area:Continue_Mail ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#Terms_Login{
+    grid-area:Terms_Login ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    font-size: larger;
+    font-weight: 400;
+}
+#Greeting{
+    font-family: Fira Sans, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
+}
+button{
+    border: orchid solid 1px;
+    border-radius: 100px;
+    height: 25vh;
+    margin: 1vh;
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+    width: 75%;
+    margin-left: 15%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #000000;
+    color: white;
+}
+
+#Create_account_btn{
+    background-color: blueviolet;
+    color: white;
+}
+#Create_account_btn:hover{
+    background-color: #000000;
+    color: white;
+}
+#Login{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+    
+
+}
+a{
+    color: blueviolet;
+    
+}
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}

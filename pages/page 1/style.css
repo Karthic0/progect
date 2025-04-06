@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-rows: 20vh 65vh 15vh;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+header{
+    margin-left: 25px;
+}
+main{
+    display: grid;
+    grid-template-rows: 12% 12% 35% 12% 20% ;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 10px;
+}
+button{
+    border-radius: 10px;
+    border: rgb(95, 94, 94) solid 2px;
+    background-color: #000000;
+    text-align: left;
+    color: rgb(173, 168, 173);
+    padding-left: 10px;
+}
+
+#Next_btn{
+    background-color: rgb(46, 38, 122);
+    color: rgb(82, 82, 95);
+    border: none;
+    height: 40%;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+}

@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-rows: 20vh 65vh 15vh;
+    grid-template-rows: 15vh 70vh 15vh;
     background-color: black;
     color: white;
     padding-left: 10px;
@@ -15,7 +15,7 @@ main{
     margin-right: 25px;
     gap: 10px;
 }
-button{
+input[type="text"]{
     border-radius: 10px;
     border: rgb(95, 94, 94) solid 2px;
     background-color: #000000;
@@ -26,10 +26,20 @@ button{
 
 #Next_btn{
     background-color: rgb(46, 38, 122);
-    color: rgb(82, 82, 95);
+    color: rgb(173, 173, 183);
     border: none;
     height: 40%;
     width: 20%;
     margin-left: 40%;
     text-align: center;
+}
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: rgb(95, 94, 94) solid 2px;
+    justify-content: space-around;
+    color:rgb(173, 168, 173) ;
+    border-radius: 15px;
+    padding-left: 10px;
 }

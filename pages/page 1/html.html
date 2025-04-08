@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
   </head>
 <body>
     <header>
         <h2>Account info</h2>
     </header>
     <main>
-      <button>Username</button>
-      <button>Password</button>
+      <input type="text" id="Username" name="Name" placeholder="Username" required />
+      <input type="text"id="Password" name="Name" placeholder="Password" required />
       <div class = "checkboxes">
-        <input type="checkbox" id="Char_8" name="remember" /><label for="Char_8">8 Characters</label>
-        <input type="checkbox" id="Caps" name="remember"/>
-        <label for="Caps">1   capital letter</label>
-        <input type="checkbox" id="Lower" name="remember" />
-        <label for="Lower">1 lowercase letter</label>
+        <div><input type="checkbox" id="Char_8" name="remember" /><label for="Char_8">8 Characters</label></div>
+        <div><input type="checkbox" id="Caps" name="remember"/>
+          <label for="Caps"> 1   capital letter</label></div>
+          <div><input type="checkbox" id="Lower" name="remember" />
+            <label for="Lower">1 lowercase letter</label></div>
       </div>
-      <button>Email</button>
+      <input type="text" id="Email" name="Name" placeholder="Email" required />
       <p>Enter your email address to simplify support and account recovery. Your email will always remain private.</p>
     </main>
     <footer><button id = "Next_btn">Next</button></footer>
